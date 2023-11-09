@@ -2,7 +2,7 @@
 float problemSolution1(float consumed_water) {
     float cost;
     // write your code here
-    
+    if(consumed_water <= 0) return float(0);
     cost += 13.0;
     cost += min(consumed_water, float(30)) * 0.4;
     if(consumed_water > 30) cost += min(consumed_water - 30, float(20)) * 0.12;
