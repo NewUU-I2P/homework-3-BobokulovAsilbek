@@ -1,4 +1,4 @@
-float problemSolution1(float consumed_water) {
+void problemSolution1(float consumed_water) {
     float cost;
     // write your code here
 
@@ -8,5 +8,5 @@ float problemSolution1(float consumed_water) {
     if(consumed_water > 50) cost += std::min(consumed_water - 50, float(10)) * 1.4;
     if(consumed_water > 60) cost += (consumed_water - 60) * 1.5;
 
-    return cost;
+    cout << cost;
 }
