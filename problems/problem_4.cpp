@@ -8,5 +8,6 @@ std::string problemSolution4(const std::string &macAddress) {
     else if((macAddress[1] <= '9' && (macAddress[1] - '0') % 2) || (macAddress[1] >= 'A' && (macAddress[1] - 'A') % 2 ) ) result = "Multicast";
     else result = "Unicast";
     // make use of control flow statements
+    //test
     return result;
 }

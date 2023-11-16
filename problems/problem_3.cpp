@@ -10,4 +10,5 @@ std::string problemSolution3(float height, char S) {
     else return "Normal";
     // use return to return your result
     // make use of control flow statements
+    //test
 }
